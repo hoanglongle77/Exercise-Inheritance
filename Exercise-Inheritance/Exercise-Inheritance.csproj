@@ -12,7 +12,6 @@
     <Folder Include="Problem-6\" />
     <Folder Include="Problem-5\" />
     <Folder Include="Problem-4\" />
-    <Folder Include="Problem-3\" />
   </ItemGroup>
 
 </Project>

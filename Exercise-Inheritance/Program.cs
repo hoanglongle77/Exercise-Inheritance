@@ -3,8 +3,9 @@
 
 using Exercise_Inheritance.Problem_1;
 using Exercise_Inheritance.Problem_2;
+using Exercise_Inheritance.Problem_3;
 
-TestProblem2();
+TestProblem3();
 
 static void TestProblem1()
 {
@@ -33,3 +34,16 @@ static void TestProblem2()
     Console.WriteLine(pet4);
 }
 
+static void TestProblem3()
+{
+    MuseElf player1 = new MuseElf("Nhat",11);
+    DarkWizard player2 = new DarkWizard("Long",22);
+    SoulMaster player3 = new SoulMaster("Triet", 33);
+    DarkKnight player4 = new DarkKnight("Hoang", 44);
+    BladeKnight player5 = new BladeKnight("Phuoc", 55);
+    Console.WriteLine(player1);
+    Console.WriteLine(player2);
+    Console.WriteLine(player3);
+    Console.WriteLine(player4);
+    Console.WriteLine(player5);
+}
