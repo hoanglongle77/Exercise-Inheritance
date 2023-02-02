@@ -12,9 +12,24 @@ namespace Exercise_Inheritance.Problem_1
         private int age;
 
         public string Name { get => name; set => name=value; }
-        public int Age { get => age; set => age=value; }
 
+        public virtual int Age
+        {
+            get => age;
+            set
+            {
+                if (value<=0)
+                {
+                    throw new ArgumentException("People should not be able to have a negative age");
+                }
+                else
+                {
+                    this.age = value;
+                }
+            }
+        }
 
+     
         public Person()
         {
         }
