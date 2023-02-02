@@ -2,8 +2,9 @@
 
 
 using Exercise_Inheritance.Problem_1;
+using Exercise_Inheritance.Problem_2;
 
-TestProblem1();
+TestProblem2();
 
 static void TestProblem1()
 {
@@ -18,5 +19,17 @@ static void TestProblem1()
         Console.WriteLine(e.Message);
     }
 
+}
+
+static void TestProblem2()
+{
+    Lizard pet1 = new Lizard("Desert");
+    Snake pet2 = new Snake("Jin");
+    Gorilla pet3 = new Gorilla("King Kong");
+    Bear pet4 = new Bear("Dragon");
+    Console.WriteLine(pet1);
+    Console.WriteLine(pet2);
+    Console.WriteLine(pet3);
+    Console.WriteLine(pet4);
 }
 

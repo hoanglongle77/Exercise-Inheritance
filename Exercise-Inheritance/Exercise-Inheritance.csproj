@@ -13,7 +13,6 @@
     <Folder Include="Problem-5\" />
     <Folder Include="Problem-4\" />
     <Folder Include="Problem-3\" />
-    <Folder Include="Problem-2\" />
   </ItemGroup>
 
 </Project>
